@@ -7,14 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51594BA821F9F705008E70F1 /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51594BA721F9F705008E70F1 /* Alarm.swift */; };
+		51675E2321F86BA200AE87AE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51675E2221F86BA200AE87AE /* CoreLocation.framework */; };
+		5175493E21FC4FAA00ACA19F /* WeekTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5175493D21FC4FAA00ACA19F /* WeekTable.swift */; };
+		5175494021FC4FC700ACA19F /* WeekTable.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5175493F21FC4FC700ACA19F /* WeekTable.storyboard */; };
+		518754B921EFDD1300473E32 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 518754B821EFDD1300473E32 /* GameKit.framework */; };
 		51B27B0A21E5276E0068622A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B27B0921E5276E0068622A /* AppDelegate.swift */; };
 		51B27B0C21E5276E0068622A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B27B0B21E5276E0068622A /* ViewController.swift */; };
 		51B27B0F21E5276E0068622A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51B27B0D21E5276E0068622A /* Main.storyboard */; };
 		51B27B1121E527700068622A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51B27B1021E527700068622A /* Assets.xcassets */; };
 		51B27B1421E527700068622A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51B27B1221E527700068622A /* LaunchScreen.storyboard */; };
+		51B27B1C21E52A840068622A /* 123.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 51B27B1B21E52A840068622A /* 123.mp3 */; };
+		51B27B2021E633870068622A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51B27B1F21E633870068622A /* AudioToolbox.framework */; };
+		51EA7BD121F6F4DA00FDCF74 /* 321.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 51EA7BD021F6F4DA00FDCF74 /* 321.mp3 */; };
+		51EA7BD321F7097E00FDCF74 /* NewAlarm.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51EA7BD221F7097E00FDCF74 /* NewAlarm.storyboard */; };
+		51EA7BD521F709AD00FDCF74 /* NewAlarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EA7BD421F709AD00FDCF74 /* NewAlarm.swift */; };
+		51EA7BDA21F70A7700FDCF74 /* NavigationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EA7BD921F70A7700FDCF74 /* NavigationProtocol.swift */; };
+		51EA7BDC21F70DE600FDCF74 /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EA7BDB21F70DE600FDCF74 /* Navigation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		51594BA721F9F705008E70F1 /* Alarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alarm.swift; sourceTree = "<group>"; };
+		51675E2221F86BA200AE87AE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		5175493D21FC4FAA00ACA19F /* WeekTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekTable.swift; sourceTree = "<group>"; };
+		5175493F21FC4FC700ACA19F /* WeekTable.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WeekTable.storyboard; sourceTree = "<group>"; };
+		518754B821EFDD1300473E32 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 		51B27B0621E5276E0068622A /* AlarmClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlarmClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51B27B0921E5276E0068622A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51B27B0B21E5276E0068622A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +39,14 @@
 		51B27B1021E527700068622A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51B27B1321E527700068622A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51B27B1521E527700068622A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51B27B1B21E52A840068622A /* 123.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 123.mp3; path = AlarmClock/Resources/123.mp3; sourceTree = SOURCE_ROOT; };
+		51B27B1D21E633870068622A /* AlarmClock.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AlarmClock.entitlements; sourceTree = "<group>"; };
+		51B27B1F21E633870068622A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		51EA7BD021F6F4DA00FDCF74 /* 321.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 321.mp3; path = AlarmClock/Resources/321.mp3; sourceTree = SOURCE_ROOT; };
+		51EA7BD221F7097E00FDCF74 /* NewAlarm.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NewAlarm.storyboard; sourceTree = "<group>"; };
+		51EA7BD421F709AD00FDCF74 /* NewAlarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAlarm.swift; sourceTree = "<group>"; };
+		51EA7BD921F70A7700FDCF74 /* NavigationProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationProtocol.swift; sourceTree = "<group>"; };
+		51EA7BDB21F70DE600FDCF74 /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +54,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51675E2321F86BA200AE87AE /* CoreLocation.framework in Frameworks */,
+				51B27B2021E633870068622A /* AudioToolbox.framework in Frameworks */,
+				518754B921EFDD1300473E32 /* GameKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		51594BA621F9F684008E70F1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				51EA7BD021F6F4DA00FDCF74 /* 321.mp3 */,
+				51B27B1B21E52A840068622A /* 123.mp3 */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5175493C21FC4F4900ACA19F /* WeekTable */ = {
+			isa = PBXGroup;
+			children = (
+				5175493D21FC4FAA00ACA19F /* WeekTable.swift */,
+				5175493F21FC4FC700ACA19F /* WeekTable.storyboard */,
+			);
+			path = WeekTable;
+			sourceTree = "<group>";
+		};
 		51B27AFD21E5276E0068622A = {
 			isa = PBXGroup;
 			children = (
 				51B27B0821E5276E0068622A /* AlarmClock */,
 				51B27B0721E5276E0068622A /* Products */,
+				51B27B1E21E633870068622A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +101,56 @@
 		51B27B0821E5276E0068622A /* AlarmClock */ = {
 			isa = PBXGroup;
 			children = (
+				51B27B1D21E633870068622A /* AlarmClock.entitlements */,
 				51B27B0921E5276E0068622A /* AppDelegate.swift */,
-				51B27B0B21E5276E0068622A /* ViewController.swift */,
-				51B27B0D21E5276E0068622A /* Main.storyboard */,
+				51EA7BD621F709B800FDCF74 /* Bords&Controllers */,
+				51594BA621F9F684008E70F1 /* Resources */,
+				51594BA721F9F705008E70F1 /* Alarm.swift */,
 				51B27B1021E527700068622A /* Assets.xcassets */,
 				51B27B1221E527700068622A /* LaunchScreen.storyboard */,
 				51B27B1521E527700068622A /* Info.plist */,
 			);
 			path = AlarmClock;
+			sourceTree = "<group>";
+		};
+		51B27B1E21E633870068622A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51675E2221F86BA200AE87AE /* CoreLocation.framework */,
+				518754B821EFDD1300473E32 /* GameKit.framework */,
+				51B27B1F21E633870068622A /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		51EA7BD621F709B800FDCF74 /* Bords&Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				51EA7BD921F70A7700FDCF74 /* NavigationProtocol.swift */,
+				51EA7BDB21F70DE600FDCF74 /* Navigation.swift */,
+				51EA7BD821F70A0500FDCF74 /* Main */,
+				51EA7BD721F70A0300FDCF74 /* NewAlarm */,
+				5175493C21FC4F4900ACA19F /* WeekTable */,
+			);
+			path = "Bords&Controllers";
+			sourceTree = "<group>";
+		};
+		51EA7BD721F70A0300FDCF74 /* NewAlarm */ = {
+			isa = PBXGroup;
+			children = (
+				51EA7BD421F709AD00FDCF74 /* NewAlarm.swift */,
+				51EA7BD221F7097E00FDCF74 /* NewAlarm.storyboard */,
+			);
+			path = NewAlarm;
+			sourceTree = "<group>";
+		};
+		51EA7BD821F70A0500FDCF74 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				51B27B0B21E5276E0068622A /* ViewController.swift */,
+				51B27B0D21E5276E0068622A /* Main.storyboard */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +185,20 @@
 				TargetAttributes = {
 					51B27B0521E5276E0068622A = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.GameCenter.iOS = {
+								enabled = 1;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -123,8 +226,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				51B27B1421E527700068622A /* LaunchScreen.storyboard in Resources */,
+				51B27B1C21E52A840068622A /* 123.mp3 in Resources */,
 				51B27B1121E527700068622A /* Assets.xcassets in Resources */,
+				51EA7BD121F6F4DA00FDCF74 /* 321.mp3 in Resources */,
 				51B27B0F21E5276E0068622A /* Main.storyboard in Resources */,
+				51EA7BD321F7097E00FDCF74 /* NewAlarm.storyboard in Resources */,
+				5175494021FC4FC700ACA19F /* WeekTable.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +242,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5175493E21FC4FAA00ACA19F /* WeekTable.swift in Sources */,
 				51B27B0C21E5276E0068622A /* ViewController.swift in Sources */,
+				51EA7BDA21F70A7700FDCF74 /* NavigationProtocol.swift in Sources */,
+				51EA7BDC21F70DE600FDCF74 /* Navigation.swift in Sources */,
+				51EA7BD521F709AD00FDCF74 /* NewAlarm.swift in Sources */,
 				51B27B0A21E5276E0068622A /* AppDelegate.swift in Sources */,
+				51594BA821F9F705008E70F1 /* Alarm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +394,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AlarmClock/AlarmClock.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XKSTMW7C69;
 				INFOPLIST_FILE = AlarmClock/Info.plist;
@@ -300,6 +413,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AlarmClock/AlarmClock.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XKSTMW7C69;
 				INFOPLIST_FILE = AlarmClock/Info.plist;
